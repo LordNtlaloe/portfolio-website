@@ -90,6 +90,39 @@
 .nav-item:nth-child(4) {
   transition-delay: 0.6s; }
 
+@media screen and (max-width: 768px) {
+  main {
+    align-items: center;
+    text-align: center; }
+    main .lg-heading {
+      line-height: 1.1;
+      margin-bottom: 1rem; }
+    main h1.lg-heading, main h2.lg-heading, main h3.lg-heading {
+      font-size: 4rem; }
+    main h1.sm-heading, main h2.sm-heading, main h3.sm-heading {
+      font-size: 1rem; }
+  ul.menu-nav, div.menu-branding {
+    float: none;
+    width: 100%;
+    min-height: 0; }
+    ul.menu-nav.show, div.menu-branding.show {
+      transform: translate3D(0, 0, 0); }
+  .menu-nav {
+    height: 60vh;
+    transform: translate3d(-100%, 0, 0);
+    font-size: 24px; }
+  .menu-branding {
+    height: 40vh;
+    transform: translate3d(100%, 0, 0); }
+    .menu-branding .portrait {
+      background: url("/Images/profile_small.jpeg");
+      width: 150px;
+      height: 150px; } }
+
+@media screen and (max-width: 500px) {
+  main#home h1 {
+    margin-top: 5vh; } }
+
 * {
   box-sizing: border-box; }
 
