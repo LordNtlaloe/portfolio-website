@@ -1,13 +1,13 @@
 $primary-color: #0B0C10;
 $secondary-color: #116466;
 $show-home-image: true;
-$home-image: url(/Images/web-development.jpg);
-$backgroud-opacity: 0.85;
+$home-image: url(/Dist/Images/web-development.jpg);
+$backgroud-opacity: 0.5;
 
 @mixin ease-out {
     transition: all 0.5s ease-out;    
 }
-
+@import 'Menu';
 @mixin background {
     @if $show-home-image{
         &#bg-image{
