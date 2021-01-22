@@ -55,7 +55,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("/Dist/Images/profile.jpeg");
+      background: url("/Images/profile.jpeg");
       border-radius: 50%;
       border: solid 3px #116466; }
   .menu .nav-item {
@@ -147,7 +147,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("/Dist/Images/profile.jpeg");
+      background: url("/Images/profile.jpeg");
       border-radius: 50%;
       border: solid 3px #116466; }
   .menu .nav-item {
@@ -363,7 +363,7 @@ main {
     height: 40vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("/Images/profile_small.jpeg");
+      background: url("Images/profile_small.jpeg");
       width: 150px;
       height: 150px; }
   .about-info {
